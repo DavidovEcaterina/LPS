@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1648818389 source:d:\is11z\maximencovladislav\pr05davidovecaterina\file.c
+
+1648816954 source:d:\is11z\maximencovladislav\pr05davidovecaterina\main.cpp
+	<iostream>
+	<iomanip>
+	<string.h>
+	<cstdlib>
+	<cstdio>
+	<stdio.h>
+	<fstream>
+

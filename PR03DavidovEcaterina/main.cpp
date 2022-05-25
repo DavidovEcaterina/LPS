@@ -7,7 +7,6 @@
     #define COST_MAX 1000
     #define COST_MIN 2
     using namespace std;
-    //interfata programului
     int Citire(int n, int a[]);//la intrare n - numarul de elemente; la iesire: a- tabloul de medicamente; functia intoarce: 1 - ok, 0- error
     void Afisare(int n, int a[],char s[]);//la intrare n - numarul de elemente, a- tabloul de medicamente
     void Afisare(int n, int a[], char b[10][20]);
@@ -38,21 +37,22 @@
         char nume [][20] = {"cel mai ieftin","costul mediu", "cel mai scump"};
         do
         {
-            cout << "Proiect nr.3 elabmedt de Davidov Ecaterina" << endl;
+            cout << "Proiect nr.3 elaborat de Davidov Ecaterina" << endl;
             cout << "Tema: Farmacie" << endl;
             cout << "Introduceti cite medicamente sunt: ";
             cin >> n;
-        }while(n <= 0);
+        }
+        while(n <= 0);
             Citire(n, med);
         cout << "Tabloul de medicamente ocupa: " << sizeof(med) << " Bt" << endl;
         do
         {
             system("cls");
-            cout << "Proiect nr.3 elabmedt de Davidov Ecaterina" << endl;
+            cout << "Proiect nr.3 elaborat de Davidov Ecaterina" << endl;
             system("cls");
             cout << "Tema: Farmacie" << endl;
             cout << "\n1. De determinat intr-un tabel cel mai ieftin si cel mai scump medicament";
-            cout << "\n2. De determinat intr-un tabel de med media";
+            cout << "\n2. De determinat intr-un tabel de medicamente media";
             cout << "\n3. De aranjat un tabel de ore in ordine crescatoare";
             cout << "\n4. De efectuat rotirea la stanga a elementelor tabelului de 7 ori";
             cout << "\n5. De adaugat costul in tabelul de medicamente";
@@ -147,7 +147,7 @@
                 if (valcaut != -1)
                     cout << "Pozitia elementului: " << valcaut;
                 else
-                    cout << "Nu exista asa element";
+                    cout << "Nu exista ";
                 Stergere(n, med, valcaut);
                 Afisare(n, med, "de medicamente sters");
                 break;
@@ -162,7 +162,7 @@
                 Afisare(5, med, "de numere perfecte generat");
                 break;
             }
-            Katea: cout << "It's ok. Press any key to continue";
+           // Katea: cout << "It's ok. Press any key to continue";
             getch();
         }
         while(key);

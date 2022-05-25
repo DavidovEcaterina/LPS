@@ -39,15 +39,14 @@ int main()
 
     do
     {
-        system("cls");
         cout << "Proiect nr. 4, elaborat de Davidov Ecaterina " << endl;
-        cout << "Tema: Costul medicamentelor" << endl;
+        cout << "Tema: Costul unor medicamentelor" << endl;
         cout << "\n1. De calculat costului minima si maxima";
         cout << "\n2. De calculat media costurilor";
         cout << "\n3. De efectuat aranjarea  crescator/descrescator";
         cout << "\n4. De interschimbat ";
         cout << "\n5. De adaugat o (linie sau coloana)";
-        cout << "\n6. De aranjat dupa o  ...";
+        cout << "\n6. Aranjare";
         cout << "\n7. De generat o matrice ";
         cout << "\n0. Stop";
         cout << "\n\n\t Alege (de la 0 la 8): ";
